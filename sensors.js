@@ -2,7 +2,6 @@
 function applyPressure() {
 	var measureText = document.getElementById("p_measure");
 	var pointer = document.getElementById("p_point");
-	
 	applyTachoValue(minPres, maxPres, measureText, pointer);
 	return false;
 }
@@ -11,6 +10,12 @@ function applyPressure() {
 // PV:IFCOND(pv:hasFeature('WindSpeed'))
 var windMeasure = 0;
 function applyWindSpeed() {
+	var measureText = document.getElementById("w_measure");
+	windMeasure = measureText.value;
+	var pointer = document.getElementById("w_point");
+	var measureText = document.getElementById("w_measure");
+	windMeasure = measureText.value;
+	var pointer = document.getElementById("w_point");
 	var measureText = document.getElementById("w_measure");
 	windMeasure = measureText.value;
 	var pointer = document.getElementById("w_point");
