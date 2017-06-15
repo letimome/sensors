@@ -4,6 +4,10 @@ function applyPressure() {
 	var pointer = document.getElementById("p_point");
 	
 	applyTachoValue(minPres, maxPres, measureText, pointer);
+	applyTachoValue(minPres, maxPres, measureText, pointer);
+	applyTachoValue(minPres, maxPres, measureText, pointer);
+	applyTachoValue(minPres, maxPres, measureText, pointer);
+	applyTachoValue(minPres, maxPres, measureText, pointer);
 	return false;
 }
 // PV:ENDCOND
